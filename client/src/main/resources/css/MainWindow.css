@@ -1,0 +1,40 @@
+.main-vbox, .connected-vbox {
+    -fx-padding: 4;
+    -fx-font-family: "Helvetica";
+}
+
+.menu-bar, .menu-button .context-menu, .connected-vbox {
+    -fx-background-color: #444;
+}
+
+.menu-button .label {
+    -fx-text-fill: #eee;
+}
+
+.header-text {
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
+
+.new-folder-menu-item > .label {
+    -fx-graphic: url("../img/folder.png");
+}
+
+.delete-menu-item > .label {
+    -fx-graphic: url("../img/trash-bin.png");
+}
+
+.copy-to-menu-item > .label {
+     -fx-graphic: url("../img/right-arrow.png");
+ }
+
+.copy-from-menu-item > .label {
+    -fx-graphic: url("../img/left-arrow.png");
+}
+
+.new-folder-menu-item .accelerator-text,
+.delete-menu-item .accelerator-text,
+.copy-to-menu-item .accelerator-text,
+.copy-from-menu-item .accelerator-text {
+    -fx-graphic: none;
+}
